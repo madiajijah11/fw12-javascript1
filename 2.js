@@ -15,7 +15,12 @@ const biodata = {
 			yearOut: 2010,
 		},
 		{ name: "SMPN 23 Banjarmasin", yearIn: 2010, yearOut: 2013 },
-		{ name: "SMAN 1 Banjarmasin", yearIn: 2013, yearOut: 2016 },
+		{
+			name: "SMKN 5 Banjarmasin",
+			yearIn: 2013,
+			yearOut: 2016,
+			major: "Teknik Komputer & Jaringaan",
+		},
 		{
 			name: "Universtias Islam Kalimantan Muhammad Arsyad Al-Banjari",
 			yearIn: 2016,
