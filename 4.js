@@ -101,15 +101,15 @@ const palindrome = (words) => {
 
 	// reverse words with loop
 	let reverseWords = "";
-	for (let i = lowerCaseWords.length - 1; i >= 0; i--) {
-		reverseWords += lowerCaseWords[i];
+	for (const word of lowerCaseWords) {
+		reverseWords = word + reverseWords;
 	}
 
 	// check if words is palindrome
 	return lowerCaseWords === reverseWords ? "Palindrome" : "Bukan Palindrome";
 };
 
-console.log(palindrome("Malam"));
-console.log(palindrome("Kodok"));
-console.log(palindrome("Kasur rusak"));
-
+console.log(palindrome("Kasur Rusak")); // Palindrome
+console.log(palindrome("Sanbercode")); // Bukan Palindrome
+console.log(palindrome("Haji Ijah")); // Palindrome
+console.log(palindrome("takut")); // Bukan Palindrome
