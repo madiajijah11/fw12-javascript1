@@ -8,12 +8,13 @@ const switchCharacter = (city) => {
 	let result = "";
 	// loop through city
 	for (const cityName of city) {
-		// if character is a, change it to o
+		// if character is "a" or "A", change it to "o" or "O"
 		if (cityName === "a") {
 			result += "o";
 		} else if (cityName === "A") {
 			result += "O";
 		} else {
+			// if character is not "a" or "A", add it to result
 			result += cityName;
 		}
 	}
@@ -21,6 +22,6 @@ const switchCharacter = (city) => {
 	return result;
 };
 
-console.log(switchCharacter("Jakarta"));
-console.log(switchCharacter("Bandung"));
-console.log(switchCharacter("Surabaya"));
+console.log(switchCharacter("Jakarta")); // Jokorto
+console.log(switchCharacter("Bandung")); // Bondung
+console.log(switchCharacter("Surabaya")); // Suraboyo
