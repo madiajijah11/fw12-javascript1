@@ -22,3 +22,5 @@ const switchCharacter = (city) => {
 };
 
 console.log(switchCharacter("Jakarta"));
+console.log(switchCharacter("Bandung"));
+console.log(switchCharacter("Surabaya"));

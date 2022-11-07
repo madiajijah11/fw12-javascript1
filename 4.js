@@ -109,4 +109,7 @@ const palindrome = (words) => {
 	return lowerCaseWords === reverseWords ? "Palindrome" : "Bukan Palindrome";
 };
 
-console.log(palindrome("malam"));
+console.log(palindrome("Malam"));
+console.log(palindrome("Kodok"));
+console.log(palindrome("Kasur rusak"));
+
