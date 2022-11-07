@@ -24,4 +24,4 @@ const switchCharacter = (city) => {
 
 console.log(switchCharacter("Jakarta")); // Jokorto
 console.log(switchCharacter("Bandung")); // Bondung
-console.log(switchCharacter("Surabaya")); // Suraboyo
+console.log(switchCharacter("Surabaya")); // Suroboyo
