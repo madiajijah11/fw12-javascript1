@@ -5,18 +5,20 @@ const switchCharacter = (city) => {
 		return "Data harus berupa string!";
 	}
 
-	let cityName = "";
 	let result = "";
-
 	// loop through city
-	for (const oldName of city) {
-		// check if city name has a character and change it to o character and push it to cityName variable
-		cityName = oldName === "a" ? "o" : oldName;
-		// push cityName variable to result variable
-		result += cityName;
+	for (const cityName of city) {
+		// if character is a, change it to o
+		if (cityName === "a") {
+			result += "o";
+		} else if (cityName === "A") {
+			result += "O";
+		} else {
+			result += cityName;
+		}
 	}
 
 	return result;
 };
 
-console.log(switchCharacter("jakarta"));
+console.log(switchCharacter("Jakarta"));
