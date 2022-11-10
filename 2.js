@@ -42,4 +42,7 @@ const biodata = {
 	interestInCoding: true,
 };
 
-console.log(biodata);
+
+console.log(biodata); //
+
+console.log(biodata.schoolList[0]); // { name: 'SDN 020 Tarakan', yearIn: 2004, yearOut: 2009 }
