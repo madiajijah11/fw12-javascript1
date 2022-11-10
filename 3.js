@@ -4,7 +4,7 @@ const mtk = 70;
 const ipa = 70;
 
 // check all value if is empty and not bellow 0 and not above 100 return "Semua nilai harus diisi dan tidak boleh kurang dari 0 atau lebih dari 100"
-if (bIndo === "" || bIng === "" || mtk === "" || ipa === "") {
+if (!bIndo || !bIng || !mtk || !ipa) {
 	return console.log("Semua nilai harus diisi");
 }
 
