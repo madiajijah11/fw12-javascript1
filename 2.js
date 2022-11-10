@@ -14,7 +14,11 @@ const biodata = {
 			yearIn: 2009,
 			yearOut: 2010,
 		},
-		{ name: "SMPN 23 Banjarmasin", yearIn: 2010, yearOut: 2013 },
+		{
+			name: "SMPN 23 Banjarmasin",
+			yearIn: 2010,
+			yearOut: 2013,
+		},
 		{
 			name: "SMKN 5 Banjarmasin",
 			yearIn: 2013,
